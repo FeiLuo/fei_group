@@ -4,7 +4,7 @@ My Ruby on Rails Research Project
 
 [markdown link](https://guides.github.com/features/mastering-markdown/)
 
-# New Project
+# Init Project
 
   - rails [_3.2.12_] new fei_group --skip-active-record
   - change Gemfile
