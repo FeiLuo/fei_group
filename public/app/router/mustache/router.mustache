@@ -1,0 +1,28 @@
+<nav class="navbar navbar-default fei-group" role="navigation">
+  <div class="navbar-header">
+    <a class="navbar-brand" href="/">Homepage</a>
+  </div>
+</nav>
+
+<div class="content">
+  <div class="router col-md-12">
+    <table class="table table-striped table-hover">
+      <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Comment</th>
+      </tr>
+      </thead>
+      <tbody>
+      {{#each demos}}
+        <tr class="demo-row" href="#" {{data "demo"}}>
+          <td>{{@index}}</td>
+          <td>{{name}}</td>
+          <td>{{comment}}</td>
+        </tr>
+      {{/each}}
+      </tbody>
+    </table>
+  </div>
+</div>

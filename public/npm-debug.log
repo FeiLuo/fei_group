@@ -1,0 +1,158 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'csso', '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'csso', null ]
+6 verbose cache add name=undefined spec="csso" args=["csso",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'csso',
+7 verbose parsed url   path: 'csso',
+7 verbose parsed url   href: 'csso' }
+8 silly lockFile 20ae1597-csso csso
+9 verbose lock csso /home/feiluo/.npm/20ae1597-csso.lock
+10 silly lockFile 20ae1597-csso csso
+11 silly lockFile 20ae1597-csso csso
+12 verbose addNamed [ 'csso', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile f7fed104-csso csso@
+15 verbose lock csso@ /home/feiluo/.npm/f7fed104-csso.lock
+16 silly addNameRange { name: 'csso', range: '*', hasData: false }
+17 verbose request where is /csso
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id b9e8afd260e52af0
+20 verbose url raw /csso
+21 verbose url resolving [ 'https://registry.npmjs.org/', './csso' ]
+22 verbose url resolved https://registry.npmjs.org/csso
+23 verbose request where is https://registry.npmjs.org/csso
+24 info trying registry request attempt 1 at 17:34:57
+25 verbose etag "9VE7WUAWTQHFX60U1SCQ3GBBO"
+26 http GET https://registry.npmjs.org/csso
+27 http 304 https://registry.npmjs.org/csso
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Wed, 15 Jul 2015 09:35:02 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'cache-control': 'max-age=60',
+28 silly registry.get     etag: '"9VE7WUAWTQHFX60U1SCQ3GBBO"',
+28 silly registry.get     age: '18',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-fra1247-FRA',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '2',
+28 silly registry.get     'x-timer': 'S1436952902.395823,VS0,VE0',
+28 silly registry.get     vary: 'Accept' } ]
+29 verbose etag https://registry.npmjs.org/csso from cache
+30 silly addNameRange number 2 { name: 'csso', range: '*', hasData: true }
+31 silly addNameRange versions [ 'csso',
+31 silly addNameRange   [ '1.2.0',
+31 silly addNameRange     '1.2.1',
+31 silly addNameRange     '1.2.2',
+31 silly addNameRange     '1.2.3',
+31 silly addNameRange     '1.2.4',
+31 silly addNameRange     '1.2.5',
+31 silly addNameRange     '1.2.6',
+31 silly addNameRange     '1.2.7',
+31 silly addNameRange     '1.2.8',
+31 silly addNameRange     '1.2.9',
+31 silly addNameRange     '1.2.10',
+31 silly addNameRange     '1.2.11',
+31 silly addNameRange     '1.2.12',
+31 silly addNameRange     '1.2.14',
+31 silly addNameRange     '1.2.15',
+31 silly addNameRange     '1.2.16',
+31 silly addNameRange     '1.2.17',
+31 silly addNameRange     '1.2.18',
+31 silly addNameRange     '1.3.0',
+31 silly addNameRange     '1.3.1',
+31 silly addNameRange     '1.3.2',
+31 silly addNameRange     '1.3.3',
+31 silly addNameRange     '1.3.4',
+31 silly addNameRange     '1.3.5',
+31 silly addNameRange     '1.3.6',
+31 silly addNameRange     '1.3.7',
+31 silly addNameRange     '1.3.8',
+31 silly addNameRange     '1.3.9',
+31 silly addNameRange     '1.3.10',
+31 silly addNameRange     '1.3.11' ] ]
+32 verbose addNamed [ 'csso', '1.3.11' ]
+33 verbose addNamed [ '1.3.11', '1.3.11' ]
+34 silly lockFile 85f21e44-csso-1-3-11 csso@1.3.11
+35 verbose lock csso@1.3.11 /home/feiluo/.npm/85f21e44-csso-1-3-11.lock
+36 silly lockFile 85f21e44-csso-1-3-11 csso@1.3.11
+37 silly lockFile 85f21e44-csso-1-3-11 csso@1.3.11
+38 silly lockFile f7fed104-csso csso@
+39 silly lockFile f7fed104-csso csso@
+40 silly resolved [ { name: 'csso',
+40 silly resolved     description: 'CSSO — CSS optimizer',
+40 silly resolved     version: '1.3.11',
+40 silly resolved     homepage: 'https://github.com/css/csso',
+40 silly resolved     author:
+40 silly resolved      { name: 'Sergey Kryzhanovsky',
+40 silly resolved        email: 'skryzhanovsky@ya.ru',
+40 silly resolved        url: 'https://github.com/afelix' },
+40 silly resolved     license: 'MIT',
+40 silly resolved     repository: { type: 'git', url: 'https://github.com/css/csso.git' },
+40 silly resolved     bugs: { url: 'https://github.com/css/csso/issues' },
+40 silly resolved     bin: { csso: './bin/csso' },
+40 silly resolved     main: './lib/cssoapi',
+40 silly resolved     scripts: { test: 'mocha ./test/test.js' },
+40 silly resolved     devDependencies: { mocha: '~1.16.2' },
+40 silly resolved     engines: { node: '>=0.8.0' },
+40 silly resolved     _id: 'csso@1.3.11',
+40 silly resolved     dist:
+40 silly resolved      { shasum: '1f299ab2543a83d4c5acfc9ae0476318692d6e90',
+40 silly resolved        tarball: 'http://registry.npmjs.org/csso/-/csso-1.3.11.tgz' },
+40 silly resolved     _from: 'csso@',
+40 silly resolved     _npmVersion: '1.2.11',
+40 silly resolved     _npmUser: { name: 'afelix', email: 'skryzhanovsky@gmail.com' },
+40 silly resolved     maintainers: [ [Object], [Object] ],
+40 silly resolved     directories: {},
+40 silly resolved     _shasum: '1f299ab2543a83d4c5acfc9ae0476318692d6e90',
+40 silly resolved     _resolved: 'https://registry.npmjs.org/csso/-/csso-1.3.11.tgz',
+40 silly resolved     readme: 'ERROR: No README data found!' } ]
+41 info install csso@1.3.11 into /usr/lib
+42 info installOne csso@1.3.11
+43 verbose lib/node_modules/csso unbuild
+44 verbose tar unpack /home/feiluo/.npm/csso/1.3.11/package.tgz
+45 silly lockFile 1d2733b0-tar-usr-lib-node-modules-csso tar:///usr/lib/node_modules/csso
+46 verbose lock tar:///usr/lib/node_modules/csso /home/feiluo/.npm/1d2733b0-tar-usr-lib-node-modules-csso.lock
+47 silly lockFile 1eaaf912-iluo-npm-csso-1-3-11-package-tgz tar:///home/feiluo/.npm/csso/1.3.11/package.tgz
+48 verbose lock tar:///home/feiluo/.npm/csso/1.3.11/package.tgz /home/feiluo/.npm/1eaaf912-iluo-npm-csso-1-3-11-package-tgz.lock
+49 silly gunzTarPerm modes [ '775', '664' ]
+50 error Error: EACCES, mkdir '/usr/lib/node_modules/csso'
+50 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/csso']
+50 error   errno: 3,
+50 error   code: 'EACCES',
+50 error   path: '/usr/lib/node_modules/csso',
+50 error   fstream_type: 'Directory',
+50 error   fstream_path: '/usr/lib/node_modules/csso',
+50 error   fstream_class: 'DirWriter',
+50 error   fstream_stack:
+50 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+50 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+50 error      'Object.oncomplete (fs.js:108:15)' ] }
+51 error Please try running this command again as root/Administrator.
+52 error System Linux 3.13.0-57-generic
+53 error command "/usr/bin/node" "/usr/bin/npm" "install" "csso" "-g"
+54 error cwd /home/feiluo/workspace/knowledge/javascript/fei_group/public
+55 error node -v v0.10.37
+56 error npm -v 1.4.28
+57 error path /usr/lib/node_modules/csso
+58 error fstream_path /usr/lib/node_modules/csso
+59 error fstream_type Directory
+60 error fstream_class DirWriter
+61 error code EACCES
+62 error errno 3
+63 error stack Error: EACCES, mkdir '/usr/lib/node_modules/csso'
+64 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+64 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+64 error fstream_stack Object.oncomplete (fs.js:108:15)
+65 verbose exit [ 3, true ]

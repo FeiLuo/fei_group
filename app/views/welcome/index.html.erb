@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fei Luo's Home Page</title>
+
+  <% if Rails.env == 'production' %>
+    <script src="/dist/main.js"></script>
+    <!--<script data-main="main" src="dist/lib/requirejs/require-2.1.18.js"></script>-->
+  <% else %>
+    <script data-main="main" src="lib/requirejs/require-2.1.18.js"></script>
+  <% end  %>
+
+</head>
+<body>
+
+</body>
+</html>

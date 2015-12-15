@@ -1,0 +1,21 @@
+development: &development
+  protocol: 'http'
+  host: localhost
+  port: 5984
+  prefix: fei_group
+  suffix: development
+  username: admin
+  password: admin
+
+test:
+  <<: *development
+  suffix: test
+
+production:
+  protocol: 'https'
+  host: localhost
+  port: 5984
+  prefix: fei_group
+  suffix: production
+  username: admin
+  password: admin
